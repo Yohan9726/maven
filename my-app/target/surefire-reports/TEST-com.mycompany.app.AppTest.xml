@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.079" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.084" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/mnt/Programs/Maven/my-app/target/test-classes:/mnt/Programs/Maven/my-app/target/classes:/home/saptarshi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/saptarshi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/mnt/Programs/Maven/my-app/target/test-classes:/mnt/Programs/Maven/my-app/target/classes:/mnt/Programs/mvn-packages/junit/junit/4.11/junit-4.11.jar:/mnt/Programs/mvn-packages/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/mnt/Programming Lang/jdk-13.0.1_linux-x64_bin/jdk-13.0.1/lib"/>
-    <property name="sun.java.command" value="/mnt/Programs/Maven/my-app/target/surefire/surefirebooter16132498734854845093.jar /mnt/Programs/Maven/my-app/target/surefire 2019-12-25T17-42-52_596-jvmRun1 surefire18401886083060584969tmp surefire_06654462862285723902tmp"/>
+    <property name="sun.java.command" value="/mnt/Programs/Maven/my-app/target/surefire/surefirebooter1937349594202159439.jar /mnt/Programs/Maven/my-app/target/surefire 2019-12-25T18-37-54_713-jvmRun1 surefire13748407883216723098tmp surefire_0225021941132686238tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/mnt/Programs/Maven/my-app/target/test-classes:/mnt/Programs/Maven/my-app/target/classes:/home/saptarshi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/saptarshi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/mnt/Programs/Maven/my-app/target/test-classes:/mnt/Programs/Maven/my-app/target/classes:/mnt/Programs/mvn-packages/junit/junit/4.11/junit-4.11.jar:/mnt/Programs/mvn-packages/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/saptarshi"/>
     <property name="user.language" value="en"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/mnt/Programs/Maven/my-app/target/surefire/surefirebooter16132498734854845093.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/Programs/Maven/my-app/target/surefire/surefirebooter1937349594202159439.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
     <property name="user.name" value="saptarshi"/>
@@ -36,7 +36,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/saptarshi/.m2/repository"/>
+    <property name="localRepository" value="/mnt/Programs/mvn-packages"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="13.0.1"/>
@@ -50,5 +50,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.003"/>
 </testsuite>
